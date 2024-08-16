@@ -11,7 +11,10 @@ const ProductCatalog = () => {
   const [priceRange, setPriceRange] = useState('');
   const [sortOption, setSortOption] = useState('');
 
+
+  console.log(valueOne)
   useEffect(() => {
+
     const queryParams = new URLSearchParams();
 
     if (searchQuery) queryParams.append('search', searchQuery);
