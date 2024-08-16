@@ -1,18 +1,22 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
+import { AuthContext } from '../Context/MyContext';
+import SearchInput from '../Component/SearchInput';
 
 const ProductCatalog = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(8); // Adjust as needed
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('');
-  const [selectedBrand, setSelectedBrand] = useState('');
-  const [priceRange, setPriceRange] = useState('');
+  // const [searchQuery, setSearchQuery] = useState('');
+  // const [selectedCategory, setSelectedCategory] = useState('');
+  // const [selectedBrand, setSelectedBrand] = useState('');
+  // const [priceRange, setPriceRange] = useState('');
   const [sortOption, setSortOption] = useState('');
 
 
-  console.log(valueOne)
+  const {searchQuery, setSearchQuery, selectedCategory, setSelectedCategory, selectedBrand, setSelectedBrand, priceRange, setPriceRange} = useContext(AuthContext);
+
+
   useEffect(() => {
 
     const queryParams = new URLSearchParams();
@@ -36,13 +40,15 @@ const ProductCatalog = () => {
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
       {/* Search Input */}
-      <input
+      {/* <input
         type="text"
         placeholder="Search by product name..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
         className="w-full p-3 mb-6 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-      />
+      /> */}
+
+  <SearchInput />
 
       {/* Filtering Options */}
       <div className="flex flex-wrap gap-4 mb-6">
