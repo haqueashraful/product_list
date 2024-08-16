@@ -12,8 +12,8 @@ const Sorting = () => {
           className="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <option value="">Sort By</option>
-          <option value="priceLowToHigh">Price: Low to High</option>
-          <option value="priceHighToLow">Price: High to Low</option>
+          <option value="LowToHigh">Low to High</option>
+          <option value="HighToLow">High to Low</option>
           <option value="newestFirst">Newest First</option>
         </select>
         </div>

@@ -6,6 +6,7 @@ import FilterByCategory from "../Component/FilterByCategory";
 import FilterByBrand from "../Component/FilterByBrand";
 import FilterByPrice from "../Component/FilterByPrice";
 import Sorting from "../Component/Sorting";
+import ProductCard from "../Component/ProductCard";
 
 const ProductCatalog = () => {
   const [products, setProducts] = useState([]);
@@ -69,62 +70,56 @@ const ProductCatalog = () => {
 
       <SearchInput />
 
-      {/* Filtering Options */}
-      <div className="flex flex-wrap gap-4 mb-6">
+      <div className="flex justify-between items-center">
+        {/* Filtering Options */}
+        <div className="flex flex-wrap gap-4 mb-6">
+          <FilterByCategory />
 
-        <FilterByCategory />
+          <FilterByBrand />
 
-        <FilterByBrand />
+          <FilterByPrice />
+        </div>
 
-        <FilterByPrice />
+        {/* Sorting Options */}
+        <div className="mb-6">
+          <Sorting />
+        </div>
       </div>
 
-      {/* Sorting Options */}
-      <div className="mb-6">
-        <Sorting />
-        {/* <select
-          onChange={(e) => setSortOption(e.target.value)}
-          className="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option value="">Sort By</option>
-          <option value="priceLowToHigh">Price: Low to High</option>
-          <option value="priceHighToLow">Price: High to Low</option>
-          <option value="newestFirst">Newest First</option>
-        </select> */}
-      </div>
 
       {/* Product Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.length ? (
           products.map((product) => (
-            <div
-              key={product._id}
-              className="border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
-            >
-              <img
-                src={product.image}
-                alt={product.productName}
-                className="w-full h-64 object-cover rounded-t-lg"
-              />
-              <div className="p-4 bg-white">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">
-                  {product.productName}
-                </h3>
-                <p className="text-gray-600 mb-2">{product.description}</p>
-                <p className="text-lg font-semibold text-blue-600 mb-2">
-                  Price: ${product.price}
-                </p>
-                <p className="text-gray-500 mb-2">
-                  Category: {product.category}
-                </p>
-                <p className="text-yellow-500 mb-2">
-                  Rating: {product.rating} ⭐
-                </p>
-                <p className="text-gray-400 text-sm">
-                  Added: {new Date(product.createdAt).toLocaleDateString()}
-                </p>
-              </div>
-            </div>
+            // <div
+            //   key={product._id}
+            //   className="border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
+            // >
+            //   <img
+            //     src={product.image}
+            //     alt={product.productName}
+            //     className="w-full h-64 object-cover rounded-t-lg"
+            //   />
+            //   <div className="p-4 bg-white">
+            //     <h3 className="text-xl font-bold text-gray-800 mb-2">
+            //       {product.productName}
+            //     </h3>
+            //     <p className="text-gray-600 mb-2">{product.description}</p>
+            //     <p className="text-lg font-semibold text-blue-600 mb-2">
+            //       Price: ${product.price}
+            //     </p>
+            //     <p className="text-gray-500 mb-2">
+            //       Category: {product.category}
+            //     </p>
+            //     <p className="text-yellow-500 mb-2">
+            //       Rating: {product.rating} ⭐
+            //     </p>
+            //     <p className="text-gray-400 text-sm">
+            //       Added: {new Date(product.createdAt).toLocaleDateString()}
+            //     </p>
+            //   </div>
+            // </div>
+            <ProductCard key={product._id} product={product} />
           ))
         ) : (
           <p className="col-span-full text-center text-gray-500">
