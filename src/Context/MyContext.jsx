@@ -8,6 +8,7 @@ const MyContext = ({ children }) => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedBrand, setSelectedBrand] = useState("");
   const [priceRange, setPriceRange] = useState("");
+  const [sortOption, setSortOption] = useState("");
 
   const value = {
     valueOne,
@@ -20,6 +21,8 @@ const MyContext = ({ children }) => {
     setSelectedBrand,
     priceRange,
     setPriceRange,
+    sortOption,
+    setSortOption,
   };
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
