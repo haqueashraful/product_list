@@ -13,6 +13,7 @@ const ProductCatalog = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
+  const [brands , setBrands] = useState([]);
   const [itemsPerPage] = useState(8); // Adjust as needed
   // const [searchQuery, setSearchQuery] = useState('');
   // const [selectedCategory, setSelectedCategory] = useState('');
@@ -48,6 +49,7 @@ const ProductCatalog = () => {
       .then((response) => {
         setProducts(response.data.products);
         setTotalPages(response.data.totalPages);
+        setBrands(response.data.brands);
       })
       .catch((error) => console.error("Error fetching products:", error));
   }, [
@@ -80,7 +82,7 @@ const ProductCatalog = () => {
         <div className="flex flex-wrap gap-4 mb-6">
           <FilterByCategory />
 
-          <FilterByBrand />
+          <FilterByBrand  brands={brands}/>
 
           <FilterByPrice />
         </div>
@@ -95,34 +97,6 @@ const ProductCatalog = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.length ? (
           products.map((product) => (
-            // <div
-            //   key={product._id}
-            //   className="border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
-            // >
-            //   <img
-            //     src={product.image}
-            //     alt={product.productName}
-            //     className="w-full h-64 object-cover rounded-t-lg"
-            //   />
-            //   <div className="p-4 bg-white">
-            //     <h3 className="text-xl font-bold text-gray-800 mb-2">
-            //       {product.productName}
-            //     </h3>
-            //     <p className="text-gray-600 mb-2">{product.description}</p>
-            //     <p className="text-lg font-semibold text-blue-600 mb-2">
-            //       Price: ${product.price}
-            //     </p>
-            //     <p className="text-gray-500 mb-2">
-            //       Category: {product.category}
-            //     </p>
-            //     <p className="text-yellow-500 mb-2">
-            //       Rating: {product.rating} ⭐
-            //     </p>
-            //     <p className="text-gray-400 text-sm">
-            //       Added: {new Date(product.createdAt).toLocaleDateString()}
-            //     </p>
-            //   </div>
-            // </div>
             <ProductCard key={product._id} product={product} />
           ))
         ) : (
