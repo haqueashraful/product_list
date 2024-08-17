@@ -1,6 +1,6 @@
 # Product_list
 
-Welcome to Product_list, You should Post your Blog here!
+Welcome to Product_list, You should find your product here!
 
 Check out our website: [Product_list](https://product-list-ha.netlify.app)
 
