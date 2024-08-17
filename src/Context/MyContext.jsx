@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, updateProfile, signInWithEmailAndPassword as firebaseSignInWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, updateProfile, signInWithEmailAndPassword } from "firebase/auth";
 import { createContext, useState } from "react";
 import auth from "../Authentication/firebase.config";
 
@@ -32,10 +32,13 @@ const MyContext = ({ children }) => {
     }
   };
 
-  const signInWithEmailAndPassword = async (email, password) => {
+  const logInWithEmailAndPassword = async (email, password) => {
     try {
-      const userCredential = await firebaseSignInWithEmailAndPassword(auth, email, password);
-      setUser(userCredential.user); // Update user state
+        signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          console.log(userCredential.user);
+            setUser(userCredential.user); 
+        })
     } catch (error) {
       console.error("Error signing in:", error);
     }
@@ -75,7 +78,7 @@ const MyContext = ({ children }) => {
     sortOption,
     setSortOption,
     signInWithGoogle,
-    signInWithEmailAndPassword,
+    logInWithEmailAndPassword,
     createAccountWithEmailAndPassword,
     signOut,
     user,
