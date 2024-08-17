@@ -7,10 +7,12 @@ import FilterByBrand from "../Component/FilterByBrand";
 import FilterByPrice from "../Component/FilterByPrice";
 import Sorting from "../Component/Sorting";
 import ProductCard from "../Component/ProductCard";
+import Pagination from "../Component/Pagination";
 
 const ProductCatalog = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(0);
   const [itemsPerPage] = useState(8); // Adjust as needed
   // const [searchQuery, setSearchQuery] = useState('');
   // const [selectedCategory, setSelectedCategory] = useState('');
@@ -43,7 +45,10 @@ const ProductCatalog = () => {
 
     axios
       .get(`http://localhost:5000/api/products?${queryParams.toString()}`)
-      .then((response) => setProducts(response.data))
+      .then((response) => {
+        setProducts(response.data.products);
+        setTotalPages(response.data.totalPages);
+      })
       .catch((error) => console.error("Error fetching products:", error));
   }, [
     searchQuery,
@@ -85,7 +90,6 @@ const ProductCatalog = () => {
           <Sorting />
         </div>
       </div>
-
 
       {/* Product Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -130,21 +134,12 @@ const ProductCatalog = () => {
 
       {/* Pagination Controls */}
       <div className="mt-6 flex justify-center space-x-2">
-        {Array.from(
-          { length: Math.ceil(products.length / itemsPerPage) },
-          (_, i) => (
-            <button
-              key={i + 1}
-              onClick={() => handlePageChange(i + 1)}
-              className={`px-4 py-2 rounded-lg border transition-colors ${
-                currentPage === i + 1
-                  ? "bg-blue-600 text-white border-blue-600"
-                  : "bg-white text-blue-600 border-blue-200"
-              } hover:bg-blue-700 hover:text-white`}
-            >
-              {i + 1}
-            </button>
-          )
+        {products.length > 0 && (
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages} 
+            onPageChange={handlePageChange}
+          />
         )}
       </div>
     </div>

@@ -2,11 +2,12 @@
   {
     "productName": "Good Life Whole Moong 500 g",
     "price": 20,
-    "category": "groceries",
+     "category": "groceries",
     "weight": [50, 100, 150, 200, 250, 500],
     "brand": "AASHIRVAAD",
     "productImages": "https://static.wixstatic.com/media/2748f6_30265d636e8147db8f23c4101e5a42ab~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2748f6_30265d636e8147db8f23c4101e5a42ab~mv2.jpeg",
     "rating": 3.5,
+    "createdTime": "20240510120034000",
     "description": "Good Life Whole Moong is one of the light meal to digest. It is often given to people who prefer diet for fitness. It contains antioxidants which are very healthy for the good functioning of the human body. It can be included in our daily diet as it can fulfil the nutritional and dietary requirements of an entire meal. Buy Good Life Whole Moong online now!"
   },
   {
@@ -16,9 +17,10 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Private Label",
-    "productImages": "https://www.jiomart.com/images/product/original/491432711/moong-dal-2-kg-product-images-o491432711-p491432711-0-202205191636.jpg",
+    "productImages": "https://cdn.webshopapp.com/shops/301900/files/359109208/642x642x3/moong-dal-2kg.jpg",
 
     "rating": 4,
+    "createdTime": "20240511121045000",
     "description": "Moong Dal is essentially packed with loads of nutrients that are extremely beneficial for your health. Moong contains almost every important element that your body might need. Buy Moong Dal online today."
   },
   {
@@ -28,8 +30,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Good Life",
-    "productImages": "https://www.jiomart.com/images/product/original/491278616/good-life-raw-peanuts-500-g-product-images-o491278616-p491278616-0-202306102242.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/61zprn-0ItL._SX679_.jpg",
+"createdTime": "20240512130529000",
     "rating": 3.5,
     "description": "Good Life Raw Peanuts is a healthy snack and the right choice for you. You can easily roast them at home. They are loaded with the goodness of health and taste. Peanut butter made with Peanuts clearly works well in sweet dishes, like cookies and brownies, which is why it pairs well with other sweeter foods like sweet potato. Buy Good Life Raw Peanuts online now!"
   },
@@ -40,8 +42,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Tata Sampann",
-    "productImages": "https://www.jiomart.com/images/product/original/490830947/tata-sampann-high-protein-unpolished-chilka-moong-500-g-product-images-o490830947-p490830947-0-202203150526.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/61zprn-0ItL._SX679_.jpg",
+"createdTime": "20240513095012000",
     "rating": 4,
     "description": "Moong Dal is procured from reliable and high-quality sources. The beans are best consumed after being sprouted. Dosa with the whole moong also turns out to be yummy, another exotic way to eat moong is to eat it as a korma which is spiced up with tangy tomatoes and a cashew paste. It is mainly used as the base for curries such as sambar, dal, etc. Buy Tata Sampann Unpolished Chilka Moong online now!"
   },
@@ -52,8 +54,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Good Life",
-    "productImages": "https://www.jiomart.com/images/product/original/491187257/good-life-moong-dal-1-kg-product-images-o491187257-p491187257-0-202301171616.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71e13MxePUL._SX679_.jpg",
+"createdTime": "20240515164525000",
     "rating": 4.5,
     "description": "Good life Moong Dal is procured from reliable and high-quality sources. The beans are best consumed after being sprouted. Dosa with whole moong also turns out to be yummy, another exotic way to eat moong is to eat it as a korma which is spiced up with tangy tomatoes and a cashew paste. It is mainly used as the base for curries such as sambar, dal etc. Buy Good Life Moong Dal online now!"
   },
@@ -64,8 +66,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Good Life",
-    "productImages": "https://www.jiomart.com/images/product/original/491187282/good-life-kabuli-chana-1-kg-product-images-o491187282-p491187282-0-202301171615.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71huNZlKTbL._SX679_.jpg",
+"createdTime": "20240516172559000",
     "rating": 3.5,
     "description": "Kabuli Chana is rich in proteins, dietary fibre and low in cholesterol and saturated fat. The beans can be soaked in water and cooked along with vegetables in the preparation of a variety of curries that complement well with rice, roti, chapattis, puri, kulcha as well as bread. It can be sprouted after soaking in water for 24 hours and added to salads to enrich the latter with proteins. Buy Good Life Kabuli Chana online now!"
   },
@@ -76,8 +78,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Angur",
-    "productImages": "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-product-images-orv8axdxoiw-p602216568-0-202306071944.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71DioRsTa-L._SX679_.jpg",
+"createdTime": "20240517190036000",
     "rating": 5,
     "description": "ANGUR TOOR DAL: Toor Dal (split yellow peas) is a mainstay of Indian cuisine. Related to lentils (pulses) and rich in natural nutrients, these delicious legumes are an excellent source of protein, minerals, and B vitamins.ADDS FLAVORFUL PROTEIN: Split yellow peas are an excellent, flavorful protein alternative for any meal. Use as a base or add Toor Dals to your favorite Indian dishes, including curries, soups, stews, salads, and more!"
   },
@@ -88,8 +90,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Fortune",
-    "productImages": "https://www.jiomart.com/images/product/original/491161236/fortune-soya-wadi-chunks-1-kg-product-images-o491161236-p491161236-0-202303181437.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/714aBovyiqL._SX679_.jpg",
+"createdTime": "20240518102041000",
     "rating": 4.5,
     "description": "Fortune Soya Wadi / Chunks are light, soft and easy on your stomach. Does your family need champion wala dum aur yum? From biryanis to pulao and even Chinese fried rice, cooked soya chunks can be added to numerous rice dishes. Fortune Soya Chunk - ''Yum jo de champion ko dum'', so buy Fortune Soya Wadi / Chunks online now!"
   },
@@ -101,8 +103,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Gowardhan",
-    "productImages": "https://www.jiomart.com/images/product/original/490489040/gowardhan-pure-cow-ghee-1-l-jar-product-images-o490489040-p490489040-0-202203170210.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/51iGaMmg-ML._SX679_.jpg",
+"createdTime": "20240519111508000",
     "rating": 5,
     "description": "Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking. Gowardhan Pure Cow Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving. So go ahead and buy this product online today!"
   },
@@ -113,8 +115,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Nestle",
-    "productImages": "https://www.jiomart.com/images/product/original/490440207/nestle-everyday-ghee-1-l-carton-product-images-o490440207-p490440207-0-202203141958.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/81jQyyBKiIL._SX679_.jpg",
+"createdTime": "20240520122534000",
     "rating": 4.5,
     "description": "Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking. Nestle EveryDay Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving. So go ahead and buy this product online today!"
   },
@@ -125,8 +127,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Amul",
-    "productImages": "https://www.jiomart.com/images/product/original/491135471/amul-cow-ghee-1-l-pouch-product-images-o491135471-p491135471-0-202203170918.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71tHr-OQSOL._SY741_.jpg",
+"createdTime": "20240522154044000",
     "rating": 0,
     "description": "Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking. Amul Cow Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving. So go ahead and buy this product online today!"
   },
@@ -137,8 +139,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Amul",
-    "productImages": "https://www.jiomart.com/images/product/original/490011305/amul-cow-ghee-500-ml-pouch-product-images-o490011305-p490011305-0-202203150541.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71tHr-OQSOL._SY741_.jpg",
+"createdTime": "20240523160526000",
     "rating": 0,
     "description": "Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking. Amul Cow Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving. So go ahead and buy this product online today!"
   },
@@ -149,8 +151,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "HARYANA FRESH",
-    "productImages": "https://www.jiomart.com/images/product/original/rvtancavef/haryana-fresh-rich-desi-danedar-ghee-500-grams-carton-product-images-orvtancavef-p604251677-0-202308302043.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71AILY6s2BL._SX679_.jpg",
+"createdTime": "20240524175012000",
     "rating": 4,
     "description": "Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking. Amul Cow Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving. So go ahead and buy this product online today"
   },
@@ -161,8 +163,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "KHEDUT HAAT",
-    "productImages": "https://www.jiomart.com/images/product/original/rv6qd7bcjt/kheduthaat-shudh-ghee-vedic-method-traditional-suddha-ghee-1-ltr-ml-product-images-orv6qd7bcjt-p604175636-0-202308291243.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/7163MLf1xpL._SX679_.jpg",
+"createdTime": "20240605194024000",
     "rating": 4,
     "description": "Khedut haat provides you with the pure cow ghee from the milk . Our ghee provides you with all the nutrients needed and only in the vessels made with Soil (Mitti) has taken an initiative for farmers to keep their strength which is a cow. All our products are directly or indirectly related to Cows & Buffalows. this milk to make milk-made dairy products. Cow dung and cow urine for fertilizing the soil. We do not use chemical fertilizers "
   },
@@ -174,8 +176,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Aashirvaad",
-    "productImages": "https://www.jiomart.com/images/product/original/490750659/aashirvaad-superior-mp-whole-wheat-atta-1-kg-product-images-o490750659-p590150646-0-202203150622.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/61JWnX-5SyL._SX679_.jpg",
+"createdTime": "20240604183033000",
     "rating": 5,
     "description": "Aashirvaad Superior MP Whole Wheat Atta provides goodness of taste in every bite. Also, it has a sweet and aromatic taste that works together to give you fuller and softer rotis, every single time. Buy Aashirvaad Superior MP Whole Wheat Atta online now!"
   },
@@ -186,22 +188,10 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Aashirvaad",
-    "productImages": "https://www.jiomart.com/images/product/original/490007352/aashirvaad-select-sharbati-whole-wheat-atta-1-kg-product-images-o490007352-p490007352-0-202206241206.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/816PR93qriL._SX679_.jpg",
+"createdTime": "20240603172547000",
     "rating": 0,
     "description": "Aashirvaad ensures that only superior quality ingredients reach your kitchen and Aashirvaad Select Sharbati stays true to that word. Made from the King of Wheat Sharbati, Aashirvaad Select is a premium quality aata which is made with love in India. This sharbati wheat flour contains MP Sharbati wheat from the select regions of Madhya Pradesh. The grains of sharabati atta are consistent in size and have a golden sheen to it. The dough made from the King of Wheat Sharbati, absorbs more water which leads to the rotis being sweet in taste and softer in texture. Buy Aashirvaad Select Sharbati Whole Wheat Atta now!"
-  },
-  {
-    "productName": "Aashirvaad Superior MP Whole Wheat Atta 2 kg",
-    "price": 250,
-    "category": "groceries",
-    "weight": [50, 100, 150, 200, 250, 500],
-
-    "brand": "Aashirvaad",
-    "productImages": "https://www.jiomart.com/images/product/original/490750660/aashirvaad-superior-mp-whole-wheat-atta-2-kg-product-images-o490750660-p590150647-0-202203170807.jpg",
-
-    "rating": 4.5,
-    "description": "Aashirvaad Superior MP Whole Wheat Atta provides goodness of taste in every bite. Also, it has a sweet and aromatic taste that works together to give you fuller and softer rotis, every single time. Buy Aashirvaad Superior MP Whole Wheat Atta online now!\n"
   },
   {
     "productName": "Chakki Atta 10 kg",
@@ -210,8 +200,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Private Label",
-    "productImages": "https://www.jiomart.com/images/product/original/491349660/chakki-atta-10-kg-product-images-o491349660-p491349660-0-202206231932.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/61HkUPNiAVL._SY741_.jpg",
+"createdTime": "20240606205518000",
     "rating": 4,
     "description": "Chakki Atta is freshly made from the choicest grains. It is carefully ground using modern chakki technique. It is used to make a wide range of foods including bread, crumpets, muffins, noodles, pasta, biscuits, cakes, pastries, cereal bars, sweet and savoury snack foods, crackers, crisp-breads, sauces and confectioner. Buy Chakki Atta online now!\n"
   },
@@ -222,8 +212,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Good Life",
-    "productImages": "https://www.jiomart.com/images/product/original/491458272/good-life-mp-wheat-chakki-atta-5-kg-product-images-o491458272-p491458272-0-202306131322.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/61HkUPNiAVL._SY741_.jpg",
+"createdTime": "20240607213540000",
     "rating": 4,
     "description": "Now get the best of health in every bite with Good Life MP Wheat Chakki Atta. The hygienic packaging ensures the product remains fresh over a period of time. Also, it has a sweet and aromatic taste that works together to give you fuller and softer rotis, every single time. Buy Good Life MP Wheat Chakki Atta online now!\n"
   },
@@ -234,8 +224,8 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Fortune",
-    "productImages": "https://www.jiomart.com/images/product/original/491695704/fortune-suji-semolina-500-g-product-images-o491695704-p590040931-0-202305191005.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/616oqu4d+wL._SX569_.jpg",
+"createdTime": "20240607213540000",
     "rating": 5,
     "description": "Fortune Suji / Semolina commonly called as wheat rawa is used as a batter ingredient as well as to make various other food items like upma and sheera. It is coarse in texture and is made of wheat. It is a versatile ingredient and easy to cook. It makes a perfect food for breakfast. Buy Fortune Suji / Semolina online now!\n"
   },
@@ -246,73 +236,73 @@
     "weight": [50, 100, 150, 200, 250, 500],
 
     "brand": "Wheatkart",
-    "productImages": "https://www.jiomart.com/images/product/original/rvondh0dpy/wheatkart-whole-wheat-atta-10-kg-product-images-orvondh0dpy-p596562517-0-202212221536.png",
-
+    "productImages": "https://m.media-amazon.com/images/I/616oqu4d+wL._SX569_.jpg",
+"createdTime": "20240609112548000",
     "rating": 4.5,
     "description": "Without adding any maida, we have 100% wheat flour to make the dough smoother.\n\nThe atta is so perfectly blended that the chappatis made by Wheatkart Atta are tastier and softer when they are cold.\n\nAtta or chakki atta is wheat flour from the Indian subcontinent that is mostly used to create flatbreads like chapati, roti, naan, paratha and puri."
   },
   {
     "productName": "OnePlus Nord CE 2 Lite 5G,128 GB,6 GB RAM,Blue Tide,Mobile Phone",
     "price": 16999.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [4, 6, 8],
 
     "brand": "One Plus",
-    "productImages": "https://www.jiomart.com/images/product/original/492850035/oneplus-nord-ce-2-lite-5g-128-gb-6-gb-ram-blue-tide-mobile-phone-digital-o492850035-p591224603-0-202208112007.png",
-
+    "productImages": "https://m.media-amazon.com/images/I/61fDxgcyBDL._SX679_.jpg",
+"createdTime": "20240610124055000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Apple iPhone 13 128 GB, Midnight (Black)",
     "price": 56900.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [4, 6, 8, 12],
 
     "brand": "Apple",
-    "productImages": "https://www.jiomart.com/images/product/original/491997699/apple-iphone-13-128-gb-midnight-black-digital-o491997699-p590798548-0-202208221207.jpeg",
-
+    "productImages": "https://m.media-amazon.com/images/I/61-r9zOKBCL._SX679_.jpg",
+"createdTime": "20240611135020000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Tecno Pop 7 Pro 64 GB, 2 GB, Black, Smartphone",
     "price": 5555.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [4, 6, 8, 12],
 
     "brand": "Tecno",
-    "productImages": "https://www.jiomart.com/images/product/original/494267984/tecno-pop-7-pro-64-gb-2-gb-black-smartphone-digital-o494267984-p605156024-0-202309292014.jpeg",
-
+    "productImages": "Tecno Pop 7 Pro 64 GB, 2 GB, Black, Smartphone",
+"createdTime": "20240615182059000",
     "rating": 4.2,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Realme C55 DLC 64GB, 4 GB RAM, Sunshower, Mobile Phone",
     "price": 10299.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [4, 6, 8, 12],
 
     "brand": "Realme",
-    "productImages": "https://www.jiomart.com/images/product/original/494267979/realme-c55-dlc-64gb-4-gb-ram-sunshower-mobile-phone-digital-o494267979-p605449884-0-202310051633.jpeg",
-
+    "productImages": "https://m.media-amazon.com/images/I/51fwbJ2eNpL._SX300_SY300_QL70_FMwebp_.jpg",
+"createdTime": "20240616191044000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "POCO M6 Pro 5G, 6GB RAM, 128GB ROM, Power Black, Smartphone",
     "price": 12199.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [4, 6, 8, 12],
 
     "brand": "POCO",
-    "productImages": "https://www.jiomart.com/images/product/original/rvqxs1lbdt/poco-m6-pro-5g-6gb-ram-128gb-rom-power-black-smartphone-product-images-orvqxs1lbdt-p604649284-0-202309191411.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/51dGqSFNrDL._SX679_.jpg",
+"createdTime": "20240617201556000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
@@ -320,56 +310,56 @@
   {
     "productName": "Realme 80 cm (32 inch) HD Ready LED Smart Android TV 2023 Edition with Android 11 RMV2205",
     "price": 9990.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [],
     "SIZE": ["32 inch", "43 inch"],
 
     "brand": "Realme",
-    "productImages": "https://www.jiomart.com/images/product/original/494249596/realme-80-cm-32-inch-hd-ready-led-smart-android-tv-2023-edition-with-android-11-rmv2205-digital-o494249596-p604838497-0-202309262030.jpeg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71MwDnn-ZaL._SX522_.jpg",
+"createdTime": "20240618112017000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Realme 80 cm (32 inch) HD Ready LED Smart Android TV 2023 Edition with Android 11 RMV2205",
     "price": 9990.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [],
     "SIZE": ["32 inch", "43 inch"],
 
     "brand": "Realme",
-    "productImages": "https://www.jiomart.com/images/product/original/494249596/realme-80-cm-32-inch-hd-ready-led-smart-android-tv-2023-edition-with-android-11-rmv2205-digital-o494249596-p604838497-0-202309262030.jpeg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71zFdS29uFL._SX522_.jpg",
+"createdTime": "20240620135532000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "OnePlus 108 cm (43 inch) Full HD Android Smart LED TV with Dolby Audio Surround Sound Technology, 43Y1S Edge",
     "price": 22990.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [],
     "SIZE": ["32 inch", "43 inch"],
 
     "brand": "One Plus",
-    "productImages": "https://www.jiomart.com/images/product/original/492796557/oneplus-108-cm-43-inch-full-hd-android-smart-led-tv-with-dolby-audio-surround-sound-technology-43y1s-edge-digital-o492796557-p591054038-0-202202221339.jpeg",
-
+    "productImages": "https://m.media-amazon.com/images/I/71gRxd+n0HL._SX522_.jpg",
+"createdTime": "20240621144053000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "TCL 55 QLED Smart Google TV, 55C645",
     "price": 39990.0,
-    "category": "groceries",
+    "category": "electronics",
     "weight": [],
     "RAM": [],
     "SIZE": ["32 inch", "43 inch"],
 
     "brand": "TCL",
-    "productImages": "https://www.jiomart.com/images/product/original/493841840/tcl-55-qled-smart-google-tv-55c645-digital-o493841840-p601697284-0-202305221948.png",
-
+    "productImages": "https://m.media-amazon.com/images/I/81LMIVQi06L._SX522_.jpg",
+"createdTime": "20240622153011000",
     "rating": 4,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
@@ -377,68 +367,69 @@
   {
     "productName": "Bomber Jacket with Zipper Pockets",
     "price": 1593.0,
-    "category": "groceries",
+    "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": ["M", "L", "XL", "XXL"],
 
     "brand": "Fort Collins",
-    "productImages": "https://www.jiomart.com/images/product/original/469255919_black/bomber-jacket-with-zipper-pockets-model-469255919_black-0-202301311905.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/61Q0xlCF8zL._SX679_.jpg",
+"createdTime": "20240623164025000",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Mid-Rise Skinny Fit Jeans",
     "price": 269.0,
-    "category": "groceries",
+    "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": [28, 30, 32, 34],
 
     "brand": "Fort Collins",
-    "productImages": "https://www.jiomart.com/images/product/original/420434311_blue/skinny-jeans-with-button-closure-model-420434311_blue-0-202308081627.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/611WP+r5g2L._SX569_.jpg",
+"createdTime": "20240608101015000",
     "rating": 5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Plutus Men Black Solid Polyester Casual Jacket M",
     "price": 499.0,
-    "category": "groceries",
+    "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": ["M", "L", "XL"],
 
     "brand": "PLUTUS",
-    "productImages": "https://www.jiomart.com/images/product/original/rvurcwrojo/plutus-men-black-solid-polyester-casual-jacket-m-product-images-rvurcwrojo-0-202209240106.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/41MMIvSjY-L._SY741_.jpg",
+"createdTime": "20240624173514000",
     "rating": 5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "BULLMER Men Beige Cotton Blend Printed Single Sweatshirts",
     "price": 699.0,
-    "category": "groceries",
+    "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": ["M", "L", "XL"],
 
     "brand": "BULLMER",
-    "productImages": "https://www.jiomart.com/images/product/original/rvqq9gohkt/bullmer-men-beige-cotton-blend-printed-single-sweatshirts-product-images-rvqq9gohkt-0-202210291839.jpg",
+    "productImages": "https://m.media-amazon.com/images/I/61XctqpzSXL._SY741_.jpg",
     "rating": 4.5,
+     "createdTime": "20240625184546000",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Men Checked Slim Fit Shirt",
     "price": 179.0,
-    "category": "groceries",
+    "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": ["M", "L", "XL"],
-
+"createdTime": "20240626191532000",
     "brand": "ROXTAR",
-    "productImages": "https://www.jiomart.com/images/product/original/420395610_red/checked-slim-fit-shirt-model-420395610_red-0-202309052055.jpg",
+    "productImages": "https://m.media-amazon.com/images/I/71jaD7aa-vL._SY741_.jpg",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
@@ -446,41 +437,44 @@
   {
     "productName": "Rudraaksha Stylish Dress For women",
     "price": 299.0,
-    "category": "groceries",
+     "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": ["M", "L", "XL"],
-
+"createdTime": "20240627202541000",
     "brand": "Rudraaksha",
-    "productImages": "https://www.jiomart.com/images/product/original/rvxsvl3imx/rudraaksha-stylish-dress-for-women-product-images-rvxsvl3imx-0-202210042034.jpg",
+    "productImages": "https://m.media-amazon.com/images/I/81N4qm8B+1L._SY741_.jpg",
     "rating": 4.5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Fabflee Party Flared Sleeves Printed Women Yellow Top | Women Tops | Crepe Top | Tops For Women",
     "price": 499.0,
-    "category": "groceries",
+     "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": ["M", "L", "XL"],
-
+"createdTime": "20240628111053000",
     "brand": "Rudraaksha",
-    "productImages": "https://www.jiomart.com/images/product/original/rvnipawgyz/fabflee-party-flared-sleeves-printed-women-yellow-top-women-tops-crepe-top-tops-for-women-product-images-rvnipawgyz-0-202309260654.jpg",
+    "productImages": "https://m.media-amazon.com/images/I/71SDW3llRcL._SY741_.jpg",
     "rating": 4,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   },
   {
     "productName": "Shrug with Shawl Lapel",
     "price": 699.0,
-    "category": "groceries",
+     "category": "fashion",
     "weight": [],
     "RAM": [],
     "SIZE": ["M", "L", "XL"],
 
     "brand": "FIG",
-    "productImages": "https://www.jiomart.com/images/product/original/441131609_grey/shrug-with-shawl-lapel-model2-441131609_grey-2-202309271631.jpg",
-
+    "productImages": "https://m.media-amazon.com/images/I/31HlLXFAdiL.jpg",
+"createdTime": "20240629124522000",
     "rating": 5,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
   }
 ]
+
+
+
