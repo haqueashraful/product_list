@@ -15,7 +15,7 @@ const Nav = () => {
     <nav className="bg-gray-800 text-white p-4 flex justify-between items-center">
       {/* Company Name */}
       <div className="text-xl font-bold">
-        CompanyName
+       Product_List
       </div>
 
       <div className='w-1/3'>
