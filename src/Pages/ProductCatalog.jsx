@@ -13,6 +13,7 @@ const ProductCatalog = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
+  const [categories, setCategories] = useState([]);
   const [brands , setBrands] = useState([]);
   const [itemsPerPage] = useState(8); // Adjust as needed
   // const [searchQuery, setSearchQuery] = useState('');
@@ -45,11 +46,12 @@ const ProductCatalog = () => {
     queryParams.append("limit", itemsPerPage);
 
     axios
-      .get(`http://localhost:5000/api/products?${queryParams.toString()}`)
+      .get(`https://product-list-ha.vercel.app/api/products?${queryParams.toString()}`)
       .then((response) => {
         setProducts(response.data.products);
         setTotalPages(response.data.totalPages);
         setBrands(response.data.brands);
+        setCategories(response.data.categories);
       })
       .catch((error) => console.error("Error fetching products:", error));
   }, [
@@ -80,7 +82,7 @@ const ProductCatalog = () => {
       <div className="flex justify-between items-center">
         {/* Filtering Options */}
         <div className="flex flex-wrap gap-4 mb-6">
-          <FilterByCategory />
+          <FilterByCategory  categories={categories}/>
 
           <FilterByBrand  brands={brands}/>
 

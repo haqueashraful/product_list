@@ -16,7 +16,7 @@ const ProductCard = ({product}) => {
               />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">
-                  {productName}
+                  {productName.slice(0, 35)}
                 </h3>
                 <p className="text-gray-600 mb-2">{description.slice(0, 100)} </p>
                 <p className="text-lg font-semibold text-blue-600 mb-2">

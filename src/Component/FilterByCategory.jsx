@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../Context/MyContext';
 
-const FilterByCategory = () => {
+const FilterByCategory = ({categories}) => {
     const {setSelectedCategory} = useContext(AuthContext);
 
     return (
@@ -11,9 +11,9 @@ const FilterByCategory = () => {
           className="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <option value="">All Categories</option>
-          <option value="electronics">Electronics</option>
-          <option value="fashion">Fashion</option>
-          <option value="home">Home & Kitchen</option>
+          {
+            categories.map((category) => <option key={category} value={category}>{category.toUpperCase()}</option>)
+          }
         </select>
         </div>
     );

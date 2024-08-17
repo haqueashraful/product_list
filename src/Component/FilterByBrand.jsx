@@ -15,9 +15,7 @@ const FilterByBrand = ({ brands }) => {
           {
             brands.map((brand) => <option key={brand} value={brand}>{brand}</option>)
           }
-          {/* <option value="brandA">Brand A</option> */}
-          {/* <option value="brandB">Brand B</option> */}
-          {/* <option value="brandC">Brand C</option> */}
+        
         </select>
         </div>
     );
