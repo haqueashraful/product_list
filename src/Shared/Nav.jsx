@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../Context/MyContext';
+import SearchInput from '../Component/SearchInput';
 
 const Nav = () => {
   const { user, signOut } = useContext(AuthContext);
@@ -15,6 +16,11 @@ const Nav = () => {
       {/* Company Name */}
       <div className="text-xl font-bold">
         CompanyName
+      </div>
+
+      <div className='w-1/3'>
+        <SearchInput />
+        
       </div>
 
       {/* Navigation Links */}

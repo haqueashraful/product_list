@@ -77,7 +77,7 @@ const ProductCatalog = () => {
         className="w-full p-3 mb-6 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
       /> */}
 
-      <SearchInput />
+      {/* <SearchInput /> */}
 
       <div className="flex justify-between items-center">
         {/* Filtering Options */}

@@ -5,6 +5,11 @@ import auth from "../Authentication/firebase.config";
 export const AuthContext = createContext();
 
 const MyContext = ({ children }) => {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedBrand, setSelectedBrand] = useState("");
+  const [priceRange, setPriceRange] = useState("");
+  const [sortOption, setSortOption] = useState("");
   const [user, setUser] = useState(null); // Initialize user as null
   const googleProvider = new GoogleAuthProvider();
 
@@ -59,6 +64,16 @@ const MyContext = ({ children }) => {
   };
 
   const value = {
+    searchQuery,
+    setSearchQuery,
+    selectedCategory,
+    setSelectedCategory,
+    selectedBrand,
+    setSelectedBrand,
+    priceRange,
+    setPriceRange,
+    sortOption,
+    setSortOption,
     signInWithGoogle,
     signInWithEmailAndPassword,
     createAccountWithEmailAndPassword,
