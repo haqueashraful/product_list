@@ -8,13 +8,14 @@ import FilterByPrice from "../Component/FilterByPrice";
 import Sorting from "../Component/Sorting";
 import ProductCard from "../Component/ProductCard";
 import Pagination from "../Component/Pagination";
+import Loader from "../Component/Loader";
 
 const ProductCatalog = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const [categories, setCategories] = useState([]);
-  const [brands , setBrands] = useState([]);
+  const [brands, setBrands] = useState([]);
   const [itemsPerPage] = useState(8); // Adjust as needed
   // const [searchQuery, setSearchQuery] = useState('');
   // const [selectedCategory, setSelectedCategory] = useState('');
@@ -46,7 +47,9 @@ const ProductCatalog = () => {
     queryParams.append("limit", itemsPerPage);
 
     axios
-      .get(`https://product-list-ha.vercel.app/api/products?${queryParams.toString()}`)
+      .get(
+        `https://product-list-ha.vercel.app/api/products?${queryParams.toString()}`
+      )
       .then((response) => {
         setProducts(response.data.products);
         setTotalPages(response.data.totalPages);
@@ -82,9 +85,9 @@ const ProductCatalog = () => {
       <div className="flex justify-between items-center">
         {/* Filtering Options */}
         <div className="flex flex-wrap gap-4 mb-6">
-          <FilterByCategory  categories={categories}/>
+          <FilterByCategory categories={categories} />
 
-          <FilterByBrand  brands={brands}/>
+          <FilterByBrand brands={brands} />
 
           <FilterByPrice />
         </div>
@@ -102,9 +105,12 @@ const ProductCatalog = () => {
             <ProductCard key={product._id} product={product} />
           ))
         ) : (
-          <p className="col-span-full text-center text-gray-500">
-            No products found.
-          </p>
+          <div className="col-span-full flex flex-col items-center justify-center w-full h-full">
+            <p className=" text-center text-gray-500">
+              No products found.
+            </p>
+            <Loader />
+          </div>
         )}
       </div>
 
@@ -113,7 +119,7 @@ const ProductCatalog = () => {
         {products.length > 0 && (
           <Pagination
             currentPage={currentPage}
-            totalPages={totalPages} 
+            totalPages={totalPages}
             onPageChange={handlePageChange}
           />
         )}

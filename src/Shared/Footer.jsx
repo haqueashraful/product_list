@@ -5,8 +5,8 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <p className="mb-2">&copy; 2024 Product_List. All rights reserved.</p>
         <div className="space-x-4">
-          <a href="/about" className="hover:text-gray-400">About</a>
-          <a href="/contact" className="hover:text-gray-400">Contact</a>
+          <a href="/#" className="hover:text-gray-400">About</a>
+          <a href="/#" className="hover:text-gray-400">Contact</a>
         </div>
       </div>
     </footer>
