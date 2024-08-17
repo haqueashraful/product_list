@@ -82,24 +82,29 @@ const ProductCatalog = () => {
 
       {/* <SearchInput /> */}
 
-      <div className="flex justify-between items-center">
+      <div className=" w-full flex flex-col md:flex-row justify-between items-center">
         {/* Filtering Options */}
-        <div className="flex flex-wrap gap-4 mb-6">
+        <div className=" w-full flex flex-wrap gap-4 mb-6">
           <FilterByCategory categories={categories} />
 
           <FilterByBrand brands={brands} />
 
           <FilterByPrice />
+
+          <div className="flex md:hidden">
+              <Sorting />
+          </div>
+
         </div>
 
         {/* Sorting Options */}
-        <div className="mb-6">
+        <div className="mb-6 hidden md:flex">
           <Sorting />
         </div>
       </div>
 
       {/* Product Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4  gap-6">
         {products.length ? (
           products.map((product) => (
             <ProductCard key={product._id} product={product} />
